@@ -10,7 +10,7 @@
     "OWNERS": {
       "description": "owner numbers",
       "required": true,
-      "value": "917605902011;GURU;6281255369012;Ash"
+      "value": "254743399594;917605902011;GURU;6281255369012;Ash"
     },
     "BOTNAME": {
       "description": "Give your BOT a name",
@@ -30,7 +30,7 @@
     "MODE": {
       "description": "mode public or private",
       "required": true,
-      "value": "public"
+      "value": "private"
     },
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
@@ -59,13 +59,13 @@
     },
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
      "REMOVEBG_KEY": {
       "description": "your RemoveBg api key",
       "required": false,
-      "value": ""
+      "value": "https://www.remove.bg/upload"
     }
     },
     "buildpacks": [
